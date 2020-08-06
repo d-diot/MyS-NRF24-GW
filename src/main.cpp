@@ -87,6 +87,17 @@
 #define MY_DEFAULT_RX_LED_PIN 7  // Receive led pin
 #define MY_DEFAULT_TX_LED_PIN 8  // the PCB, on board LED
 
+// Signing
+#define MY_SIGNING_REQUEST_SIGNATURES
+//#define MY_DEBUG_VERBOSE_SIGNING
+#define MY_SIGNING_WEAK_SECURITY
+// Software signing
+#define MY_SIGNING_SOFT
+#define MY_SIGNING_SOFT_RANDOMSEED_PIN 14
+//ATSHA204 Signing
+//#define MY_SIGNING_ATSHA204
+//#define MY_SIGNING_ATSHA204_PIN 17
+
 #include <MySensors.h>
 
 void setup()
